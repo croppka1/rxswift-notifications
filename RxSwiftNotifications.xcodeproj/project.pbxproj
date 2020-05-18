@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91078BC12473D5620096C291 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91078BC02473D5620096C291 /* RxSwift.framework */; };
+		OBJ_625 /* GenNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* GenNotification.swift */; };
+		OBJ_626 /* Notifiable + Listeners.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Notifiable + Listeners.swift */; };
+		OBJ_627 /* NotificationsListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NotificationsListener.swift */; };
+		OBJ_628 /* NotificationsProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* NotificationsProxy.swift */; };
+		OBJ_629 /* NoParamNotifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* NoParamNotifiable.swift */; };
+		OBJ_630 /* Notifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Notifiable.swift */; };
+		OBJ_631 /* NotificationObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* NotificationObservable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91078BC02473D5620096C291 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		OBJ_10 /* GenNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenNotification.swift; sourceTree = "<group>"; };
+		OBJ_11 /* Notifiable + Listeners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notifiable + Listeners.swift"; sourceTree = "<group>"; };
+		OBJ_12 /* NotificationsListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsListener.swift; sourceTree = "<group>"; };
+		OBJ_13 /* NotificationsProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsProxy.swift; sourceTree = "<group>"; };
+		OBJ_14 /* NoParamNotifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoParamNotifiable.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Notifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifiable.swift; sourceTree = "<group>"; };
+		OBJ_16 /* NotificationObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationObservable.swift; sourceTree = "<group>"; };
+		OBJ_18 /* GenNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenNotificationTests.swift; sourceTree = "<group>"; };
+		OBJ_19 /* NoParamNotifiableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoParamNotifiableTests.swift; sourceTree = "<group>"; };
+		OBJ_20 /* NotifiableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifiableTests.swift; sourceTree = "<group>"; };
+		OBJ_21 /* NotificationsProxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsProxyTests.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
+		OBJ_23 /* UIKitNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitNotifications.swift; sourceTree = "<group>"; };
+		OBJ_311 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = SOURCE_ROOT; };
+		OBJ_312 /* RxSwiftNotifications */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RxSwiftNotifications; sourceTree = SOURCE_ROOT; };
+		OBJ_313 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_314 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_315 /* RxSwiftNotifications.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RxSwiftNotifications.podspec; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"RxSwiftNotifications::RxSwiftNotifications::Product" /* RxSwiftNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwiftNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				91078BC12473D5620096C291 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91078BBF2473D5610096C291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91078BC02473D5620096C291 /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		OBJ_17 /* RxSwiftNotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* GenNotificationTests.swift */,
+				OBJ_19 /* NoParamNotifiableTests.swift */,
+				OBJ_20 /* NotifiableTests.swift */,
+				OBJ_21 /* NotificationsProxyTests.swift */,
+				OBJ_22 /* Town.swift */,
+				OBJ_23 /* UIKitNotifications.swift */,
+			);
+			name = RxSwiftNotificationsTests;
+			path = RxSwiftNotifications/Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_24 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"RxSwiftNotifications::RxSwiftNotifications::Product" /* RxSwiftNotifications.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_24 /* Tests */,
+				OBJ_304 /* Products */,
+				OBJ_311 /* Example */,
+				OBJ_312 /* RxSwiftNotifications */,
+				OBJ_313 /* LICENSE */,
+				OBJ_314 /* README.md */,
+				OBJ_315 /* RxSwiftNotifications.podspec */,
+				91078BBF2473D5610096C291 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* RxSwiftNotifications */,
+				OBJ_17 /* RxSwiftNotificationsTests */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* RxSwiftNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Extras */,
+				OBJ_14 /* NoParamNotifiable.swift */,
+				OBJ_15 /* Notifiable.swift */,
+				OBJ_16 /* NotificationObservable.swift */,
+			);
+			name = RxSwiftNotifications;
+			path = RxSwiftNotifications/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* GenNotification.swift */,
+				OBJ_11 /* Notifiable + Listeners.swift */,
+				OBJ_12 /* NotificationsListener.swift */,
+				OBJ_13 /* NotificationsProxy.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"RxSwift::SwiftPMPackageDescription" /* RxSwiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_670 /* Build configuration list for PBXNativeTarget "RxSwiftPackageDescription" */;
+			buildPhases = (
+				OBJ_673 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxSwiftPackageDescription;
+			productName = RxSwiftPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"RxSwiftNotifications::RxSwiftNotifications" /* RxSwiftNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_621 /* Build configuration list for PBXNativeTarget "RxSwiftNotifications" */;
+			buildPhases = (
+				OBJ_624 /* Sources */,
+				OBJ_632 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxSwiftNotifications;
+			productName = RxSwiftNotifications;
+			productReference = "RxSwiftNotifications::RxSwiftNotifications::Product" /* RxSwiftNotifications.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "RxSwiftNotifications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"RxSwiftNotifications::RxSwiftNotifications" /* RxSwiftNotifications */,
+				"RxSwift::SwiftPMPackageDescription" /* RxSwiftPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_625 /* GenNotification.swift in Sources */,
+				OBJ_626 /* Notifiable + Listeners.swift in Sources */,
+				OBJ_627 /* NotificationsListener.swift in Sources */,
+				OBJ_628 /* NotificationsProxy.swift in Sources */,
+				OBJ_629 /* NoParamNotifiable.swift in Sources */,
+				OBJ_630 /* Notifiable.swift in Sources */,
+				OBJ_631 /* NotificationObservable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/RxSwift/Sources/RxCocoaRuntime/include",
+				);
+				INFOPLIST_FILE = RxSwiftNotifications.xcodeproj/RxSwiftNotifications_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = RxSwiftNotifications;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = RxSwiftNotifications;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/RxSwift/Sources/RxCocoaRuntime/include",
+				);
+				INFOPLIST_FILE = RxSwiftNotifications.xcodeproj/RxSwiftNotifications_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = RxSwiftNotifications;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = RxSwiftNotifications;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "RxSwiftNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_621 /* Build configuration list for PBXNativeTarget "RxSwiftNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_622 /* Debug */,
+				OBJ_623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_670 /* Build configuration list for PBXNativeTarget "RxSwiftPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_671 /* Debug */,
+				OBJ_672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
